@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    color: black;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-image: url("Fotos/planos-de-fundo/plano1.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    
+}
+header#cabecalho h1 {
+    font-family: fantasy;
+    font-size: 30pt;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(252, 249, 250);
+    width: 310px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+footer#rodape {
+    float: left;
+    width: 100%;
+}
+
+footer#rodape h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    color: black;
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+footer#rodape h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    color: black;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Formatação do Menu HOME  */
+
+img#logo {
+    width: 180px;
+    margin-top: -30px;
+    float: left;
+}
+
+.nomes-menu {
+    padding: 0 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.nomes-menu:hover {
+    background-color: crimson;
+    color: white; 
+}
+
+.menu-ativo {
+    background-color: crimson;
+    color: white;
+}
+
+nav#menu {
+    display: block;
+    width: 420px;
+    margin: 0 auto;
+}
+
+div#nav-menu {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #ECD2E1
+}
+div#nav-menu img#logo {
+    display: block;
+}
+
+
+nav#menu ul {
+    margin: 0;
+    list-style: none;
+    text-transform: uppercase ;
+    font-size: 16pt;
+
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: black;
+}
+
+div#interface img#icone {
+    width: 500px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: none;
+    padding: 15px;
+    display: block;
+}
+
+div#musica {
+    width: 300px;
+    margin: 0 auto;
+}
